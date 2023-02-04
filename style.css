@@ -1,0 +1,66 @@
+body{
+
+    background-color:rgb(0, 0, 0);
+    width: 960px;
+    margin:auto;
+}
+
+ header,nav,aside,section,footer,article {
+    
+    border-radius: 5px;
+    color:rgb(255, 255, 255);
+    vertical-align: middle;
+}
+
+header{     
+    
+    /* Cabeçario */
+    
+    height: 80px;
+    width:  800px;
+    float:  right;
+    background-color:red;
+    margin: 15px 15px 5px 0px;
+}
+
+aside{  
+
+    /* Guia Lateral */
+    
+    height: 80px;
+    width:  130px;
+    float:  left;
+    margin: 15px 15px 15px 0px;
+    background-color:red;
+}
+
+article{
+   
+    /* Meio */
+    
+    height: 400px;
+    width:  800px;
+    margin: 5px 15px 15px 0px;
+    float:  right;
+    background-color:purple;
+}
+
+nav{
+    
+    /* Navegacao */
+    
+    height: 50px;
+    width:  800px;
+    background-color:blue;
+    margin: 5px 15px 5px 0px;
+    float:  right;
+}
+
+section{
+
+    height: 400px;
+    width:  130px;
+    background-color:green;
+    margin: 5px 15px 15px 0px;
+    float:  left;
+}
